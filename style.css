@@ -29,7 +29,7 @@ header{
     display:inline-flex;
     background-color: black;
     z-index:10;
-    width:1330px;
+    width:100%;
     top:0;
     left:0;
     align-items:center;

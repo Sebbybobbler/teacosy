@@ -1,0 +1,190 @@
+*{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:0.9;
+    text-align: center;
+    align-content: center;
+    margin:0;
+    padding:0;
+
+}
+
+main{
+    margin-left:30px;
+    margin-right:0;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-content: space-around;
+    width:1300px;
+}
+
+
+/* Top Ribbon of site   */
+header{
+    min-height:69px;
+    position:fixed;
+    display:inline-flex;
+    background-color: black;
+    z-index:10;
+    width:1330px;
+    top:0;
+    left:0;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:1px solid seashell;
+}
+
+header img{
+    height:50px;
+    padding-left: 10px;
+    justify-content: start;
+    display:inline-flex;
+    
+}
+
+
+nav{
+    align-content: center;
+    padding-right:10px;
+}
+
+
+header ul>li{
+    text-decoration:underline;
+    display:inline-flex;
+
+
+}
+
+
+/* Welcome image with company mission*/
+.mission{
+    position:relative;
+    background-image:url(./resources/images/img-mission-background.webp);
+    height:700px;
+    min-width:1200px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    margin:69px 0;
+}
+
+.mission h2{
+    font-size:30px;
+}
+
+.mission h2, .mission h4{
+    background-color: black;
+    width:1300px;
+    padding: 10px;
+}
+
+
+/*Monthly tea box*/
+.monthly-tea{
+    width:1200px;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    padding:10px;
+    margin-bottom: 30px;
+    justify-content:center;
+    align-items:center;
+    justify-items:center;
+}
+
+.monthly-tea h2{
+    font-size:30px;
+    margin-bottom: 10px;
+}
+
+.monthly-tea h4{
+    margin-bottom: 10px;
+}
+
+.cards{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:1000px;
+}
+
+.cards figure img{
+    height:200px;
+    width:300px;
+}
+
+/* Locations box with cards */
+
+.locations{
+    height:500px;
+    width:1200px;
+    background-image: url(./resources/images/img-locations-background.webp);
+    align-content:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loc-cards h3, p{
+    opacity:1;
+    line-height: 70px;
+}
+
+.loc-box{
+    display: inline-flex;
+    background-color: transparent;
+    opacity:1;
+    justify-content: center;
+
+}
+
+.locations h2{
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.loc-cards{
+    justify-content: center;
+    align-content: center;
+    width:300px;
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    background-color: transparent;
+    opacity:1;
+    margin:15px 40px;
+}
+
+.loc-cards{
+    font-size:30px;
+}
+
+
+
+/*Contact info box and copyright note*/
+
+.contact{
+    width:1200px;
+    display:flex;
+    flex-direction: column;
+    height:200px;
+    justify-content:space-around;
+}
+
+
+.contact h2{
+    font-size: 30px;
+}
+
+.copyright{
+    width:1200px;
+    display:flex;
+    margin-left:20px ;
+    margin-bottom: 20px;
+}
+
